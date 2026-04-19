@@ -7,7 +7,7 @@
 
 body {
   font-family: myFont;
-  background-image: url(/Images/LandscapeUpscale.jpg) , url(/Images/BackgroundAdjusted.png);
+  background-image: url("https://mrshane06.github.io/personal-portfolio-images/LandscapeUpscale.webp") , url("https://mrshane06.github.io/personal-portfolio-images/BackgroundAdjusted.webp");
   background-repeat:no-repeat , repeat;
   background-size: auto;
   background-size: 100rem 48.1rem;
