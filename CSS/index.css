@@ -1,12 +1,12 @@
 /* General */
 
-@font-face {
-  font-family: myFont; /* set name */
-  src: url(/TextFile/chomsky.regular.otf); /* url of the font */
-}
+/* @font-face {
+  font-family: myFont;
+  src: url(/TextFile/chomsky.regular.otf);
+} */
 
 body {
-  font-family: myFont;
+  font-family: New 'Times New Roman', Times, serif;
   background-image: url(/Images/LandscapeUpscale.jpg) , url(/Images/BackgroundAdjusted.png);
   background-repeat:no-repeat , repeat;
   background-size: auto;
