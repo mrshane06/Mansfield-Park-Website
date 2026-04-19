@@ -1,0 +1,102 @@
+/* General */
+
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(/TextFile/chomsky.regular.otf); /* url of the font */
+}
+
+body {
+  font-family: myFont;
+  background-image: url(/Images/LandscapeUpscale.jpg) , url(/Images/BackgroundAdjusted.png);
+  background-repeat:no-repeat , repeat;
+  background-size: auto;
+  background-size: 100rem 48.1rem;
+  background-color: #d4c0a0;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #d4c0a0;
+  text-align: center; /* Center text */
+  padding: 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%; /* Ensure full width */ 
+  z-index: 1000;
+  border: solid 1px black;
+}
+
+.navbar-start {
+  display: flex;
+  justify-content: center; /* Center links */
+  width: 100%;
+}
+
+.navbar-start ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-start li {
+  display: inline-block;
+}
+
+.navbar-start a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-start a:hover {
+  color: #2471be;
+}
+
+
+.navbar-item {
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Body */
+
+.BodySection{
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+.TextCenter{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#ContentList{
+  margin-top: 40rem;
+  margin-bottom: 3rem;
+}
+
+#ViewingSection{
+  margin-bottom: 6rem;
+}
+
+/* Footer */
+
+#foot{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border: solid 1px black;
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  font-size: 2vh;
+  line-height: 1.1;
+  color: rgb(0, 0, 0);
+  align-content: center;
+  background: #d4c0a0;
+}
