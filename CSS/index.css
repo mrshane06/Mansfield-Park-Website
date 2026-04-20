@@ -108,18 +108,23 @@ body {
   margin: 2rem;
 }
 
+#Content{
+  margin-bottom: 6rem;
+}
+
 .ContentHead{
   text-align: center;
   text-decoration: underline;
 }
 
+.ContentHead1{
+  text-align: center;
+  /* text-decoration: underline; */
+}
+
 .ContentText{
   margin-left: 2rem;
   margin-right: 2rem;
-}
-
-#ViewingSection{
-  margin-bottom: 6rem;
 }
 
 /* Footer */
